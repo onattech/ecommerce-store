@@ -1,13 +1,14 @@
-import { cn } from "@/lib/utils"
 import { MouseEventHandler } from "react"
 
-interface InconButtonProps {
+import { cn } from "@/lib/utils"
+
+interface IconButtonProps {
     onClick?: MouseEventHandler<HTMLButtonElement> | undefined
     icon: React.ReactElement
     className?: string
 }
 
-const IconButton: React.FC<InconButtonProps> = ({ onClick, icon, className }) => {
+const IconButton: React.FC<IconButtonProps> = ({ onClick, icon, className }) => {
     return (
         <button
             onClick={onClick}
