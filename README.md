@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce Store
 
-## Getting Started
+This is an e-commerce store built with Next.js 13.4 and app router. The project aims to create a fully functional online store with features like product listings, shopping cart management, and secure checkout. Also checkout the [admin side](https://github.com/onattech/ecommerce-admin) of the store!
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next.js 13.4: A React framework for building server-rendered and statically generated applications.
+- App Router: A routing library for Next.js that enables dynamic client-side navigation.
+- Stripe: Working checkout flow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Product Listings: Display a catalog of products with details such as title, price, description, and images.
+- Shopping Cart Management: Allow users to add products to their cart, update quantities, and remove items.
+- Secure Checkout: Implement a secure checkout process for users to complete their purchase.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository: `git clone [repository URL]`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Access the application in your web browser at `http://localhost:3000`.
+2. Explore the product listings, add items to your cart, and proceed to the checkout.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you want to contribute to this project, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add your commit message'`
+4. Push the changes to your forked repository: `git push origin feature/your-feature-name`
+5. Submit a pull request describing your changes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+MIT License
+
+## Acknowledgements
+
+Props to Antonio for a great video tutorial. https://www.youtube.com/watch?v=5miHyP6lExg&t=36509s
+
+## Contact
+
+[onatim.com](https://www.onatim.com/)
