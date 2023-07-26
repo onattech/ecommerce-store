@@ -1,6 +1,6 @@
 import { Billboard } from "@/types"
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/billboards`
+const URL = `https://store-admin.onatim.com/api/05545a6b-0880-48b1-9ad9-797a5054bc10/billboards`
 
 const getBillboard = async (id: string): Promise<Billboard | undefined> => {
     try {
