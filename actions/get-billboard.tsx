@@ -9,7 +9,7 @@ const getBillboard = async (id: string): Promise<Billboard | undefined> => {
     } catch (error) {
         console.log("URL:", URL)
         console.log("ID:", id)
-        console.log("Error:!!!!!!!!!!!!,")
+        console.log("Error:!!!!!!!!!!!!,", error)
     }
 }
 
