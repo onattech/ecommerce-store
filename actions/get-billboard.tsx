@@ -7,7 +7,9 @@ const getBillboard = async (id: string): Promise<Billboard | undefined> => {
         const res = await fetch(`${URL}/${id}`)
         return res.json()
     } catch (error) {
-        console.log({ error })
+        console.log("URL:", URL)
+        console.log("ID:", id)
+        console.log("Error:!!!!!!!!!!!!,")
     }
 }
 
